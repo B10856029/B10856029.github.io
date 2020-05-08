@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>穀飼牛點餐價格表</title>
+    <style>
+        td {
+            border-color: red;
+            border: "1";
+            border-style: dotted;
+            text-align: center;
+            padding: 10px;
+            border-width: 1px;
+        }
+    </style>
+</head>
+<script>
+</script>
+
+<body>
+    <script>
+        var i, a, b, c = 50;
+        document.write("<center>")
+        document.write("<h1>穀飼牛點餐價格表</h1>");
+        document.write("<h2>折扣內容:套餐4及套餐5全面打5折</h2>");
+        document.write("<table>");
+        document.write("<tr>");
+        document.write("<td></td>");
+        for (i = 1; i <= 5; i++) {
+            document.write("<td>套餐");
+            document.write(i + "<br>" + i * 50 + "元");
+            if (i >= 4) {
+                document.write("<br>特價:" + (i * 50) / 2 + "</td>");
+            }
+        }
+        document.write("</tr>");
+        for (a = 1; a <= 7; a++) {
+            document.write("<tr>");
+            document.write("<td>" + a + "</td>");
+            for (b = 1; b <= 5; b++) {
+                document.write("<td>");
+                if (b < 4) {
+                    document.write(a * b * 50 + "</td>");
+                } else if (b >= 4) {
+                    document.write("原價:" + a * b * 50 + "<br>");
+                    document.write("折扣後:" + (a * b * 50) / 2 + "</td>");
+                }
+            }
+        }
+        document.write("</tr>");
+    </script>
+</body>
+
+</html>
