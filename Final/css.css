@@ -1,119 +1,119 @@
-* {
-    box-sizing: border-box;
-    /*RWD需要*/
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: burlywood;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: grey;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: red;
-}
-
-.center {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.header {
-    background-color: #33CCFF;
-    padding: 30px;
-    text-align: center;
-}
-
-.header h2 {
-    font-size: 50px;
-}
-
-@media screen and (max-width: 768px) {
-    .cen {
-        width: 100%;
-    }
-}
-
-.item-group {
-    width: 100%;
-    margin: 0px;
-}
-
-.cen {
-    padding: 0px 10%;
-    margin: 0px;
-}
-
-.item {
-    margin: 0;
-}
-
-.two {
-    width: 100%;
-}
-
-@media screen and (min-width:768px) {
-    .item-group {
-        display: flex;
-    }
-}
-
-.text {
-    text-align: center;
-    width: 100%;
-    float: right;
-}
-
-.text2 {
-    background-color: rgb(245, 178, 236);
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 20px 30px 50px 20px;
-    font-size: 22px;
-}
-
-.text2 h3 {
-    font-size: 30px;
-    padding: 0px;
-}
-
-.footer {
-    background-color: green;
-    color: black;
-    text-align: center;
-    padding: 20px 0px;
-    font-size: 20px;
-}
-
-.region {
-    text-align: center;
-    padding: 10px 0px 0px 0px
-}
-
-.region p {
-    border: 1px solid black;
-    font-size: 40px;
-}
+        * {
+            box-sizing: border-box;
+            /*RWD需要*/
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: burlywood;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: grey;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: red;
+        }
+        
+        .center {
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        
+        .header {
+            background-color: #33CCFF;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h2 {
+            font-size: 50px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .cen {
+                width: 100%;
+            }
+        }
+        
+        .item-group {
+            width: 100%;
+            margin: 0px;
+        }
+        
+        .cen {
+            padding: 0px 10%;
+            margin: 0px;
+        }
+        
+        .item {
+            margin: 0;
+        }
+        
+        .two {
+            width: 100%;
+        }
+        
+        @media screen and (min-width:768px) {
+            .item-group {
+                display: flex;
+            }
+        }
+        
+        .text {
+            text-align: center;
+            width: 100%;
+            float: right;
+        }
+        
+        .text2 {
+            background-color: rgb(245, 178, 236);
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px 30px 50px 20px;
+            font-size: 22px;
+        }
+        
+        .text2 h3 {
+            font-size: 40px;
+            padding: 0px;
+        }
+        
+        .footer {
+            background-color: green;
+            color: black;
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 20px;
+        }
+        
+        .region {
+            text-align: center;
+            padding: 10px 0px 0px 0px
+        }
+        
+        .region p {
+            border: 1px solid black;
+            font-size: 40px;
+        }
